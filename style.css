@@ -1,0 +1,65 @@
+*{
+  background-color: rgb(255, 232, 244);
+}
+
+  .header *{border: ridge}
+  
+.header{
+  font-family: Optima;
+  background-color: darkseagreen;
+}
+
+
+.item{
+  font-size: 25px;
+  font-family: 'Brush Script MT'
+  
+
+}
+ /* h1{ 
+    
+}  */
+.menu{
+    
+    display: flex;
+    justify-content: center;
+}
+.item{
+  display:flex;
+  justify-content: space-evenly;
+
+}
+.item{
+  margin-left :100px;
+  
+
+}
+a:link{
+  color: rgb(247, 0, 0);
+}
+a:visited{
+  color: rgb(0, 87, 22);
+}
+
+.item{
+  position:relative
+}
+.item l {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+.item:hover l{
+  font-family:'serif';
+  font-style:italic;
+  color:rgb(0, 0, 0);
+  transform: scale(3);
+  opacity:1
+
+}
+.item:hover img{
+  opacity:0.5
+}
+
